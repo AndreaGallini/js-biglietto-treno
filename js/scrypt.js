@@ -32,7 +32,7 @@ if(etaUtente <= minorenni){
     document.getElementById('prezzoriservato').innerHTML = costoOver65 + ' ' + '€'
 
 }else if( (etaUtente > minorenni) || (etaUtente < over65)){
-    document.getElementById('prezzoriservato').innerHTML = costoIntero
+    document.getElementById('prezzoriservato').innerHTML = costoIntero + ' ' + '€'
 }
 
 
