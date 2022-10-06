@@ -11,7 +11,7 @@ const minorenni = 18;
 const over65 = 65;
 let costoKm = numeroKm * costoalKm;
 let costo = Math.ceil(costoKm)
-let costoIntero = costo.toFixed()
+let costoIntero = costo.toFixed(2)
 let costoMultipli2 = costoIntero * 2;
 let costoMultipli3 = costoIntero * 3; 
 console.log(costoIntero)
